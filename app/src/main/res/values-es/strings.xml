@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Challenge MELI</string>
+    <string name="not_found">No se encontraron resultados</string>
+    <string name="product_name">Nombre del producto</string>
+    <string name="price">Precio</string>
+    <string name="condition">Condicion</string>
+    <string name="condition_state_new">Nuevo</string>
+    <string name="condition_state_used">Usado</string>
+    <string name="warranty">GARANTIA</string>
+    <string name="attributes">CARACTERISTICAS</string>
+    <string name="results">Resultados</string>
+    <string name="search_text">Texto de busqueda</string>
+    <string name="description_app">Busca el producto que desee</string>
+    <string name="attribute_value">Texto caracteristica</string>
+    <string name="product_title">Titulo del producto</string>
+    <string name="free_shipping">Envio gratis</string>
+    <string name="location">Localizacion</string>
+    <string name="suggestion">Sugerencia</string>
+    <string name="search">Buscar</string>
+    <string name="no_connection">No hay conexion a internet</string>
+    <string name="something_went_wrong">Algo salio mal</string>
+    <string name="retry">Reintentar</string>
+    <string name="we_are_working">Estamos trabajando para solucionarlo</string>
+    <string name="check_connection">Verifica tu conexion a internet</string>
+    <string name="product_not_found">No se pudo obtener la informacion del producto</string>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.SearchActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <com.mancj.materialsearchbar.MaterialSearchBar
+            android:id="@+id/searchBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:mt_hint="@string/search_text"
+            app:mt_placeholder="@string/search"
+            app:mt_searchBarColor="@color/yellow"
+            app:mt_maxSuggestionsCount="6"
+            app:mt_placeholderColor="@color/black"
+            app:mt_textColor="@color/black"
+            app:mt_searchIconTint="@color/black"
+            app:mt_menuIconTint="@color/black"
+            app:mt_clearIconTint="@color/black"
+            app:mt_hintColor="@color/black"
+            app:mt_backIconTint="@color/black"
+            app:mt_leftTextSelectorTint="@color/black"
+            style="@style/MaterialSearchBarLight"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:src="@drawable/meli"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/description_app"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
